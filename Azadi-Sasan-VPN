@@ -106,11 +106,11 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "Sasan-VPN\n § hy2+ech",
-        "Sasan-VPN\n § vl+ws+tls+cdn+frag",
-        "Sasan-VPN\n § hy2+ech",
-        "Sasan-VPN\n § vl+ws+tls+cdn+frag",
-        "Sasan-VPN\n § hy2+ech"
+        "Sasan-VPN\n@Sasan_Ros § hy2+ech",
+        "Sasan-VPN\n@Sasan_ro § vl+ws+tls+cdn+frag",
+        "Sasan-VPN\n@Sasan § hy2+ech",
+        "Sasan-VPN\n@Ssn § vl+ws+tls+cdn+frag",
+        "Sasan-VPN\n@Ssn_ros § hy2+ech"
       ],
       "default": "auto"
     },
@@ -118,11 +118,11 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "Sasan-VPN\n § hy2+ech",
-        "Sasan-VPN\n § vl+ws+tls+cdn+frag",
-        "Sasan-VPN\n § hy2+ech",
-        "Sasan-VPN\n § vl+ws+tls+cdn+frag",
-        "Sasan-VPN\n § hy2+ech"
+        "Sasan-VPN\n@Sasan_Ros § hy2+ech",
+        "Sasan-VPN\n@Sasan_ro § vl+ws+tls+cdn+frag",
+        "Sasan-VPN\n@Sasan § hy2+ech",
+        "Sasan-VPN\n@Ssn § vl+ws+tls+cdn+frag",
+        "Sasan-VPN\n@Ssn_ros § hy2+ech"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -130,7 +130,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "Sasan-VPN\n § hy2+ech",
+      "tag": "Sasan-VPN\n@Sasan_Ros § hy2+ech",
       "domain_strategy": "prefer_ipv6",
       "server": "h.88981401.xyz",
       "server_port": 443,
@@ -159,7 +159,7 @@
     },
     {
       "type": "vless",
-      "tag": "Sasan-VPN\n § vl+ws+tls+cdn+frag",
+      "tag": "Sasan-VPN\n@Sasan_ro § vl+ws+tls+cdn+frag",
       "domain_strategy": "prefer_ipv6",
       "tls_fragment": {
         "enabled": true,
@@ -191,7 +191,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "Sasan-VPN\n § hy2+ech",
+      "tag": "Sasan-VPN\n@Sasan § hy2+ech",
       "domain_strategy": "prefer_ipv6",
       "server": "all-in.daiijannapoleon.fun",
       "server_port": 443,
@@ -220,7 +220,7 @@
     },
     {
       "type": "vless",
-      "tag": "Sasan-VPN\n § vl+ws+tls+cdn+frag",
+      "tag": "Sasan-VPN\n@Ssn § vl+ws+tls+cdn+frag",
       "domain_strategy": "prefer_ipv6",
       "tls_fragment": {
         "enabled": true,
@@ -252,7 +252,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "Sasan-VPN\n § hy2+ech",
+      "tag": "Sasan-VPN\n@Ssn_ros § hy2+ech",
       "domain_strategy": "ipv4_only",
       "server": "azadi2.dgi000.store",
       "server_port": 443,
